@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:My project (1)/Assets/Scripts/EnemyBase.cs.meta
-guid: e0a5d7be25b7fc14aa6a548d4511e2da
 ========
 guid: 829c8abe147c77543aa96494668cce37
->>>>>>>> dbcce05133e70d33ca06e5571e7cad534710863d:My project (1)/Assets/Scripts/TowerBase.cs.meta
+
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBase : MonoBehaviour
 {
@@ -9,9 +10,12 @@ public class EnemyBase : MonoBehaviour
     public Transform target;
     private int wavepointIndex = 0;
     public Waypoints waypoints;
+    public int maxHP;
+    public int HP;
 
     private void Start()
     {
+        HP = maxHP;
         target = Waypoints.points[0];
     }
     private void Update()
@@ -28,7 +32,7 @@ public class EnemyBase : MonoBehaviour
     {
         if (wavepointIndex >= Waypoints.points.Length - 1)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("Game Over");
         }
 
         wavepointIndex++;
