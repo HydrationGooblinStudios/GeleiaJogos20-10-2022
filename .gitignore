@@ -42,3 +42,4 @@ ehthumbs.db
 Thumbs.db
 My project (1)/Logs/AssetImportWorker0.log
 My project (1)/Logs/AssetImportWorker1.log
+*.log
