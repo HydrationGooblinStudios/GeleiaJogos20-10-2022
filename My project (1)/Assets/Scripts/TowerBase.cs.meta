@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:My project (1)/Assets/Scripts/EnemyBase.cs.meta
+guid: 00cafa0f89bdcca409b146c4a5bcf5ee
+========
+guid: 829c8abe147c77543aa96494668cce37
+>>>>>>>> dbcce05133e70d33ca06e5571e7cad534710863d:My project (1)/Assets/Scripts/TowerBase.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
